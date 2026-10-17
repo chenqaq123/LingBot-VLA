@@ -1,0 +1,11 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Local large artifacts, not uploaded to GitHub
+/models/
+/outputs/

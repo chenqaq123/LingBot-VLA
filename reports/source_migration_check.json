@@ -1,0 +1,19 @@
+{
+  "source_files_identical": 1547,
+  "asset_path_adaptations": [
+    "envs/_GLOBAL_CONFIGS.py",
+    "envs/_base_task.py",
+    "envs/place_a2b_left.py",
+    "envs/place_a2b_right.py",
+    "envs/place_object_scale.py",
+    "envs/place_object_stand.py",
+    "envs/put_object_cabinet.py",
+    "envs/utils/create_actor.py",
+    "envs/utils/rand_create_cluttered_actor.py",
+    "envs/utils/transforms.py"
+  ],
+  "omitted_upstream_bytecode": 17,
+  "missing_source_files": [],
+  "backup_exists": false,
+  "tasks": 50
+}

@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "resize": [
+    256,
+    256
+  ],
+  "rgb_channel_check": true,
+  "state_55d_layout_and_normalization": true,
+  "language_token_length": 72,
+  "normalization_sha256": "488ec6569c30dd69419358241efdb2e6c3488117768e7028a1e891be83e10db8",
+  "tensor_shapes": {
+    "images": [
+      3,
+      256,
+      1536
+    ],
+    "img_masks": [
+      3
+    ],
+    "state": [
+      55
+    ],
+    "lang_tokens": [
+      72
+    ],
+    "lang_masks": [
+      72
+    ],
+    "actions": [
+      50,
+      55
+    ],
+    "action_is_pad": [
+      50
+    ],
+    "joint_mask": [
+      50,
+      55
+    ],
+    "state_joint_mask": [
+      55
+    ],
+    "action_joint_mask": [
+      55
+    ],
+    "image_grid_thw": [
+      3,
+      3
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+# Reuse vla-smolvla's torch 2.7.1+cu126, transformers 4.57.6 and lerobot.
+torchdata==0.11.0
+qwen-vl-utils==0.0.11
+omegaconf==2.3.0
+blobfile==3.2.0
+jsonlines==4.0.0

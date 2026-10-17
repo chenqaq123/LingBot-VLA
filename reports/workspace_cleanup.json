@@ -1,0 +1,40 @@
+{
+  "removed": [
+    "baseline",
+    "reports",
+    ".venv",
+    "configs/baseline_v1.json",
+    "train.sh",
+    "eval.sh",
+    "setup_baseline.sh",
+    "README_baseline.md",
+    "ROBOTWIN_SETUP.md",
+    "outputs/smoke_v1",
+    "outputs/baseline_v1",
+    "outputs/rollout_compare_20261009_pair1",
+    "outputs/rollout_compare_20261009_v1_color_compatible",
+    "outputs/suite_clean50_20261009",
+    "outputs/fp32_smoke_20261009",
+    "outputs/suite_fp32_clean50_20261009",
+    "outputs/official_alignment_smoke_20261009",
+    "outputs/official_alignment_smoke_20261009_attempt02",
+    "outputs/official_alignment_smoke_20261009_attempt03",
+    "outputs/official_alignment_smoke_20261009_attempt04"
+  ],
+  "restore_official": [
+    "lingbotvla/models/vla/lingbot_vla/modeling_lingbot_vla_v2.py",
+    "lingbotvla/models/vla/lingbot_vla/qwen2_action_expert.py",
+    "lingbotvla/ops/robby_moe.py"
+  ],
+  "already_absent": [
+    "data"
+  ],
+  "date": "2026-10-09T08:51:39.043174+00:00",
+  "backup": "None, per explicit user instruction",
+  "preserved_user_edit": "lingbot-vla-v2/tasks/vla/train_lingbotvla.py",
+  "robotwin_source_origin": "/home/chenguanxu/projects/lingbo/RoboTwin",
+  "robotwin_commit": "13c3c47ff4312dd62484bcd51be034af55c062d1",
+  "execution": "Direct workspace source; shared assets via paths; no runtime source copies",
+  "retained_result": "outputs/official_alignment_verified_20261009",
+  "shared_models_and_datasets": "unchanged"
+}

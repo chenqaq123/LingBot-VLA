@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "source_completeness": {
+    "source_files_identical": 1547,
+    "asset_path_adaptations": [
+      "envs/_GLOBAL_CONFIGS.py",
+      "envs/_base_task.py",
+      "envs/place_a2b_left.py",
+      "envs/place_a2b_right.py",
+      "envs/place_object_scale.py",
+      "envs/place_object_stand.py",
+      "envs/put_object_cabinet.py",
+      "envs/utils/create_actor.py",
+      "envs/utils/rand_create_cluttered_actor.py",
+      "envs/utils/transforms.py"
+    ],
+    "omitted_upstream_bytecode": 17,
+    "missing_source_files": [],
+    "backup_exists": false,
+    "tasks": 50
+  },
+  "preprocessing_passed": true,
+  "simulator": {
+    "task": "click_bell",
+    "seed": 0,
+    "controller": "official scripted expert",
+    "training_data": false,
+    "render_mode": "raytrace",
+    "plan_success": true,
+    "task_success": true,
+    "frames": 82,
+    "first_frame_std": 27.090592506875343,
+    "video": "/home/chenguanxu/nas/VLA/lingbo/outputs/workspace_migration_smoke/click_bell_20261009_085159/demo.mp4",
+    "gpu": "NVIDIA GeForce RTX 4090"
+  },
+  "model_rollout_rerun": false,
+  "syntax_passed": true,
+  "old_entries_removed": true,
+  "backup_retained": false,
+  "execution_source": "/home/chenguanxu/nas/VLA/lingbo/RoboTwin",
+  "curobo_source": "/home/chenguanxu/nas/VLA/lingbo/RoboTwin/envs/curobo/src",
+  "shared_assets": "/srv/common_dataset/RoboTwin2.0/assets"
+}
